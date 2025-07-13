@@ -15,6 +15,7 @@ public:
     }
 };
 
+
 void insertAtEnd(int val, Node *&h, Node *&t)
 {
     Node *newNode = new Node(val);
@@ -28,12 +29,12 @@ void insertAtEnd(int val, Node *&h, Node *&t)
     else
     {
     //    Node *newNode = new Node(val);
-        newNode->next=h;
+        newNode->next;
         h = newNode;
     }
 }
 
-void dikhao(Node *&h)
+void PrintLinkList(Node *&h)
 {
     Node *temp = h;
 
@@ -47,7 +48,7 @@ void dikhao(Node *&h)
 
 int main()
 {
-    Node* h = NULL;
+    Node* h = nullptr;
     Node* t = NULL;
 
     for(int i = 0; i<6;i++){
