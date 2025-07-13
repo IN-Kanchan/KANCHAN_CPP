@@ -29,7 +29,7 @@ void insertAtEnd(int val, Node *&h, Node *&t)
     else
     {
     //    Node *newNode = new Node(val);
-        newNode->next;
+        newNode->next=h;
         h = newNode;
     }
 }
